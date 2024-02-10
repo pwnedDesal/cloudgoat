@@ -89,7 +89,7 @@ $ docker run -it -v ~/.aws:/root/.aws/ rhinosecuritylabs/cloudgoat:latest
 
 ## Scenarios Available
 
-### vulnerable_lambda (Small / Easy)
+- [x] ###  vulnerable_lambda (Small / Easy)
 
 `$ ./cloudgoat.py create vulnerable_lambda`
 
@@ -117,7 +117,7 @@ Contributed by [infrasec.sh](https://infrasec.sh/).
 
 [Visit Scenario Page.](scenarios/iam_privesc_by_key_rotation/README.md)
 
-### iam_privesc_by_rollback (Small / Easy)
+- [x] ### iam_privesc_by_rollback (Small / Easy)
 
 `$ ./cloudgoat.py create iam_privesc_by_rollback`
 
