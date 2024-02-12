@@ -89,7 +89,8 @@ $ docker run -it -v ~/.aws:/root/.aws/ rhinosecuritylabs/cloudgoat:latest
 
 ## Scenarios Available
 
-- [x] ###  vulnerable_lambda (Small / Easy)
+ ###  vulnerable_lambda (Small / Easy) 
+ - [x] Done
 
 `$ ./cloudgoat.py create vulnerable_lambda`
 
@@ -117,7 +118,8 @@ Contributed by [infrasec.sh](https://infrasec.sh/).
 
 [Visit Scenario Page.](scenarios/iam_privesc_by_key_rotation/README.md)
 
-- [x] ### iam_privesc_by_rollback (Small / Easy)
+ ### iam_privesc_by_rollback (Small / Easy) 
+- [x] DOne
 
 `$ ./cloudgoat.py create iam_privesc_by_rollback`
 
@@ -126,7 +128,7 @@ Starting with a highly-limited IAM user, the attacker is able to review previous
 [Visit Scenario Page.](scenarios/iam_privesc_by_rollback/README.md)
 
 ### lambda_privesc (Small / Easy)
-
+- [x] Done
 `$ ./cloudgoat.py create lambda_privesc`
 
 Starting as the IAM user Chris, the attacker discovers that they can assume a role that has full Lambda access and pass role permissions. The attacker can then perform privilege escalation using these new permissions to obtain full admin privileges.
