@@ -146,6 +146,7 @@ Starting as an anonymous outsider with no access or privileges, exploit a miscon
 [Visit Scenario Page.](scenarios/cloud_breach_s3/README.md)
 
 ### iam_privesc_by_attachment (Medium / Moderate)
+- [x] Done
 
 `$ ./cloudgoat.py create iam_privesc_by_attachment`
 
