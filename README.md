@@ -138,6 +138,7 @@ Starting as the IAM user Chris, the attacker discovers that they can assume a ro
 [Visit Scenario Page.](scenarios/lambda_privesc/README.md)
 
 ### cloud_breach_s3 (Small / Moderate)
+- [x]
 
 `$ ./cloudgoat.py create cloud_breach_s3`
 
