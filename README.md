@@ -177,6 +177,7 @@ compromised instance.
 [Visit Scenario Page.](scenarios/ecs_takeover/README.md)
 
 ### rce_web_app (Medium / Hard)
+- [x]
 
 `$ ./cloudgoat.py create rce_web_app`
 
