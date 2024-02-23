@@ -20,4 +20,6 @@ RUN pip3 install -r ./requirements.txt
 WORKDIR /usr/src/cloudgoat/
 COPY ./ ./
 
-ENTRYPOINT ["/bin/bash"]
+#ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["tail"]
+CMD ["-f","/dev/null"]
